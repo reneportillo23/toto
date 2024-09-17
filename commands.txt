@@ -1,0 +1,9 @@
+docker ps -a #Show us the docker images
+
+docker kill  'id_image' #removes docker image
+
+docker run -it ubuntu #run docker 
+
+docker build -t csmi:py3 #We build the docker image
+
+If need to open vscode through the container, we go to the command pallette, and then Dev Container.

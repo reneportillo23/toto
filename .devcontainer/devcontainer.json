@@ -1,0 +1,26 @@
+{
+    "name": "Ubuntu 24.04",
+	"image": "ubuntu:noble",
+	//"mounts": [
+	//	"source=${localWorkspaceFolder},target=/workspaces/feelpp,type=bind,consistency=cached"
+	//],
+
+	"updateRemoteUserUID": true,
+	//"postCreateCommand": "${containerWorkspaceFolder}/.devcontainer/detect_platform.sh",
+	// Add the IDs of extensions you want installed when the container is created in the array below.
+	"extensions": [
+		"ms-vscode.cpptools",
+		"ms-vscode.cmake-tools",
+		"josetr.cmake-language-support-vscode",
+		"asciidoctor.asciidoctor-vscode",
+		"ms-python.python",
+		"ms-toolsai.jupyter",
+		"ms-vsliveshare.vsliveshare",
+		"asciidoctor.asciidoctor-vscode",
+		"shardulm94.trailing-spaces",
+		"redhat.vscode-yaml"
+	]
+
+
+
+}
